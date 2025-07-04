@@ -3,3 +3,11 @@ chmod +x queries.sh
 ./insert_data.sh
 ./queries.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+ls --color=auto
+git remote add origin https://github.com/Ter-er/FreeCodeCamp-WorldCup.git
+git remote -v
+git remote add origin1 https://github.com/Ter-er/FreeCodeCamp-Worldcup.git
+git push -u origin1 main
+ls --color=auto
+git add .
