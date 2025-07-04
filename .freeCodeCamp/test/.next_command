@@ -11,3 +11,7 @@ git remote add origin1 https://github.com/Ter-er/FreeCodeCamp-Worldcup.git
 git push -u origin1 main
 ls --color=auto
 git add .
+git commit -m "First Commit"
+git push
+touch README.md
+git add .
